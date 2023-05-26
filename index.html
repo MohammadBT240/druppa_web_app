@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Druppa</title>
+    <title>Druppa - Home</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Place favicon.ico in the root directory -->
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="assets/img/favicon.png"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"/>
+    <!-- BOOTSTRAP here -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/preloader.css" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -69,22 +68,18 @@
                   <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </nav>
               </div>
               <div class="header__two-btn t-right d-block d-lg-none text-end">
-                <a href="contact.html" class="fill-btn clip-btn"
-                  >get estimation</a
-                >
+                <a href="#" class="fill-btn clip-btn"  data-toggle="modal" data-target="#exampleModalCenter">Sign-In</a>
               </div>
             </div>
             <div class="col-xl-3 col-6">
               <div class="header__two-btn lh-1 t-right d-none d-xl-block">
-                <a href="contact.html" class="fill-btn clip-btn"
-                  >get estimation</a
-                >
+                <a href="#" class="fill-btn clip-btn"  data-toggle="modal" data-target="#exampleModalCenter">Sign-In</a>
               </div>
               <div class="text-end d-xl-none d-block">
                 <div class="header__toggle-btn sidebar-toggle-btn">
@@ -266,8 +261,7 @@
                               <h3>Shipping <br /></h3>
                             </a>
                             <p>
-                              The quality data, best network building uptime,
-                              fastest output
+                              We offer comprehensive shipping services tailored to meet your specific needs
                             </p>
                           </div>
                           <div class="services__item-shape"></div>
@@ -296,8 +290,8 @@
                                     d="M4.5,3 L19.5,3 C20.3284271,3 21,3.67157288 21,4.5 L21,19.5 C21,20.3284271 20.3284271,21 19.5,21 L4.5,21 C3.67157288,21 3,20.3284271 3,19.5 L3,4.5 C3,3.67157288 3.67157288,3 4.5,3 Z M8,5 C7.44771525,5 7,5.44771525 7,6 C7,6.55228475 7.44771525,7 8,7 L16,7 C16.5522847,7 17,6.55228475 17,6 C17,5.44771525 16.5522847,5 16,5 L8,5 Z"
                                     fill="#fe9307"
                                   />
-                                </g></svg
-                              ><!--end::Svg Icon--></span
+                                </g></svg><!--end::Svg Icon-->
+                                </span
                             >
                           </div>
                           <div class="services__item-content">
@@ -305,8 +299,7 @@
                               <h3>Warehousing <br /></h3>
                             </a>
                             <p>
-                              The quality data, best network building uptime,
-                              fastest output
+                              Efficient warehousing is crucial for seamless supply chain operations
                             </p>
                           </div>
                           <div class="services__item-shape"></div>
@@ -325,8 +318,7 @@
                               </h3>
                             </a>
                             <p>
-                              The quality data, best network building uptime,
-                              fastest output
+                              When it comes to interstate transportation, Druppa Logistics has you covered.
                             </p>
                           </div>
                           <div class="services__item-shape"></div>
@@ -346,8 +338,7 @@
                               </h3>
                             </a>
                             <p>
-                              The quality data, best network building uptime,
-                              fastest output
+                              At Druppa Logistics, we understand the importance of timely and efficient delivery.
                             </p>
                           </div>
                           <div class="services__item-shape"></div>
@@ -364,10 +355,7 @@
       <!-- Services Area End Here  -->
 
       <!-- Help CTA Area Start Here  -->
-      <section
-        class="help__cta overlay bg-css overlay-red pt-50 pb-20"
-        data-background="assets/img/cta/help-cta-bg.png"
-      >
+      <section class="help__cta overlay bg-css overlay-red pt-50 pb-20" data-background="assets/img/cta/help-cta-bg.png">
         <div class="container">
           <div
             class="row align-items-center wow fadeInUp"
@@ -381,7 +369,7 @@
             </div>
             <div class="col-md-4">
               <div class="help__cta-btn text-lg-end mb-30">
-                <a class="skew-btn" href="#">get a quote</a>
+                <a class="skew-btn" href="contact.html">get a quote</a>
               </div>
             </div>
           </div>
@@ -820,10 +808,12 @@
                     >
                       <div class="accordion-body">
                         <p>
-                          From finance, retail, and travel, to social media,
-                          cybersecurity, adtech, and more, market leaders are
-                          leveraging web data to maintain their transt
-                          advantage. Discover how it can work for you.
+                          At Druppa Logistics, we understand the importance of timely service. 
+                          The servicing time frame depends on the specific service and the nature of 
+                          your requirements. We strive to provide efficient and prompt service, 
+                          ensuring that your logistics needs are met within agreed-upon timelines. 
+                          Our team will work closely with you to establish realistic service time frames 
+                          and keep you informed throughout the process.
                         </p>
                       </div>
                     </div>
@@ -838,7 +828,7 @@
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        refund policy & pricing
+                        refund policy
                       </button>
                     </h2>
                     <div
@@ -849,10 +839,11 @@
                     >
                       <div class="accordion-body">
                         <p>
-                          From finance, retail, and travel, to social media,
-                          cybersecurity, adtech, and more, market leaders are
-                          leveraging web data to maintain their transt
-                          advantage. Discover how it can work for you.
+                          Our refund policy varies based on the specific circumstances and service provided. 
+                          We believe in fair and transparent business practices. If you encounter any issues 
+                          or have concerns regarding our services, we encourage you to reach out to our customer 
+                          support team. They will carefully assess the situation and work with you to find a suitable 
+                          resolution, which may include refunding or providing alternative solutions.
                         </p>
                       </div>
                     </div>
@@ -867,7 +858,7 @@
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                        our own products
+                        Pricing
                       </button>
                     </h2>
                     <div
@@ -878,12 +869,11 @@
                     >
                       <div class="accordion-body">
                         <p>
-                          The standard chunk of Lorem Ipsum used since the 1500s
-                          is reproduced below for those interested. Sections
-                          1.10.32 and 1.10.33 from "de Finibus Bonorum et
-                          Malorum" by Cicero are also reproduced in their exact
-                          original form, accompanied by English versions from
-                          the 1914 translation by H. Rackham.
+                          At Druppa Logistics, we offer competitive pricing based on the specific requirements of each client. 
+                          Pricing depends on various factors, including the type of service, transportation mode, 
+                          distance, volume, and additional value-added services requested. We provide customized 
+                          quotes based on your unique needs. Please contact our team to discuss your requirements 
+                          and receive a detailed and transparent pricing proposal.
                         </p>
                       </div>
                     </div>
@@ -909,43 +899,43 @@
                     >
                       <div class="accordion-body">
                         <p>
-                          Contrary to popular belief, Lorem Ipsum is not simply
-                          random text. It has roots in a piece of classical
-                          Latin literature from 45 BC, making it over 2000 years
-                          old. Richard McClintock, a Latin professor at
-                          Hampden-Sydney College in Virginia, looked up one of
-                          the more obscure Latin words, consectetur, from a
-                          Lorem Ipsum passage.
+                          In the event of any logistics-related issues or concerns, our dedicated customer support 
+                          team is available to assist you. We follow a systematic troubleshooting process, which 
+                          begins with understanding the issue you're facing. Our team will gather all relevant 
+                          information and work diligently to identify the root cause. We will then propose and 
+                          implement a suitable solution to resolve the problem efficiently, minimizing any 
+                          disruption to your logistics operations.
                         </p>
                       </div>
                     </div>
                   </div>
                   <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
+                    <h2 class="accordion-header" id="headingSix">
                       <button
                         class="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive"
+                        data-bs-target="#collapseSix"
                         aria-expanded="false"
-                        aria-controls="collapseFive"
+                        aria-controls="collapseSix"
                       >
-                        terms & conditions
+                      Do you offer your own products?
                       </button>
                     </h2>
                     <div
-                      id="collapseFive"
+                      id="collapseSix"
                       class="accordion-collapse collapse"
-                      aria-labelledby="headingFive"
+                      aria-labelledby="headingSix"
                       data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
                         <p>
-                          t is a long established fact that a reader will be
-                          distracted by the readable content of a page when
-                          looking at its layout. The point of using Lorem Ipsum
-                          is that it has a more-or-less normal distribution of
-                          letters, as opposed to using 'Content here.
+                          We primarily focus on providing comprehensive logistics solutions and do not have our 
+                          own products. However, we collaborate with a vast network of trusted carriers, 
+                          including airlines, shipping lines, and trucking companies, to ensure the highest 
+                          quality of service. Our extensive partnerships enable us to offer flexible and efficient 
+                          solutions tailored to your specific needs while maintaining rigorous standards of 
+                          reliability and professionalism.
                         </p>
                       </div>
                     </div>
@@ -958,20 +948,20 @@
                 <div class="testimonial__item p-relative mb-60">
                   <div class="testimonial__item-img f-left">
                     <img
-                      src="assets/img/testimonial/auth-two-1.png"
+                      src="assets/img/testimonial/auth-two-2.png"
                       alt="Testimonial"
                     />
                   </div>
                   <div class="testimonial__item-content white-bg fix">
                     <p>
-                      “ The world's #1 web data platform from data collection
-                      infrastructure to ready-made datasets, brights tow allow
-                      you to retrieve. ”
+                      “Driven by a passion for excellence, we founded Druppa 
+                      Logistics to redefine the world of logistics through innovation, 
+                      dedication, and customer satisfaction”
                     </p>
                     <div class="testimonial__item-bottom">
                       <div class="testimonial__item-auth">
-                        <h4>Alamin Muhammad</h4>
-                        <h6>Head Of IT</h6>
+                        <h4>Faisal Aminu Abdulkadir</h4>
+                        <h6>founder/CEO</h6>
                       </div>
                       <div class="testimonial__item-rate">
                         <i class="fas fa-star"></i>
@@ -985,21 +975,16 @@
                 </div>
                 <div class="testimonial__item p-relative mb-60">
                   <div class="testimonial__item-img f-left">
-                    <img
-                      src="assets/img/testimonial/auth-two-2.png"
-                      alt="Testimonial"
-                    />
+                    <img src="assets/img/testimonial/auth-two-1.png" alt="Testimonial"/>
                   </div>
                   <div class="testimonial__item-content white-bg fix">
                     <p>
-                      “There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form”
+                      “As the Head of IT at Druppa Logistics, my mission is to unlock the power of technology, seamlessly integrating it into our logistics solutions. I believe that innovation and digital transformation are the keys to unlocking new possibilities, enhancing efficiency, and delivering exceptional customer experiences. ”
                     </p>
                     <div class="testimonial__item-bottom">
                       <div class="testimonial__item-auth">
-                        <h4>Druppa CEO</h4>
-                        <h6>founder</h6>
+                        <h4>Mohammad Bashir</h4>
+                        <h6>Head Of IT</h6>
                       </div>
                       <div class="testimonial__item-rate">
                         <i class="fas fa-star"></i>
@@ -1018,15 +1003,135 @@
       </section>
       <!-- Accordion And Testimonial Area End Here  -->
 
+      <!--Sign In Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+              <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLongTitle">Sign-in</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+              </div>
+              <div class="modal-body">
+                 <div class="row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
+                       <div class="single-input-field">
+                          <input name="username" type="text" placeholder="Your Email">
+                          <i class="fas fa-user"></i>
+                       </div>
+                    </div>
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
+                       <div class="single-input-field">
+                          <input name="name" type="text" placeholder="Your Password">
+                          <i class="fas fa-lock"></i>
+                       </div>
+                       <p class="register_sign" >Dont have account yet?  <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signUpModal"><U>Register</U></a></p>
+                       <p class="forgot_password"><a href="" data-dismiss="modal" data-toggle="modal" data-target="#forgotModal"><u>Forgot Password</u></a></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="modal-footer">
+                 <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                 <button type="button" class="btn fill-btn" data-dismiss="modal">SIGN IN</button>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!--Sign Up Modal -->
+     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+              <div class="modal-header">
+                 <h5 class="modal-title" id="signUpModalLongTitle">Sign-Up</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+              </div>
+              <div class="modal-body">
+                 <div class="row">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                       <div class="single-input-field">
+                          <input name="first_name" type="text" placeholder="First Name">
+                          <i class="fas fa-user"></i>
+                       </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                       <div class="single-input-field">
+                          <input name="surname" type="text" placeholder="Surname">
+                          <i class="fas fa-user"></i>
+                       </div>
+                    </div>
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
+                       <div class="single-input-field">
+                          <input name="p_number" type="number" placeholder="Phone Number">
+                          <i class="fas fa-envelope"></i>
+                       </div>
+                    </div>
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
+                       <div class="single-input-field">
+                          <input name="email" type="text" placeholder="Email">
+                          <i class="fas fa-envelope"></i>
+                       </div>
+                    </div>
+                    
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
+                       <div class="single-input-field">
+                          <input name="password" type="password" placeholder="Password">
+                          <i class="fas fa-lock"></i>
+                       </div>
+                    </div>
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
+                       <div class="single-input-field">
+                          <input name="cpassword" type="password" placeholder="Confirm Password">
+                          <i class="fas fa-lock"></i>
+                       </div>
+                    </div>
+                    <p class=""><a href="" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalCenter"><u>Back</u></a></p>
+                 </div>
+              </div>
+              <div class="modal-footer">
+                 <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                 <button type="button" class="btn fill-btn" data-dismiss="modal">SIGN UP</button>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!--Forgot Password Up Modal -->
+     <div class="modal fade" id="forgotModal" tabindex="-1" role="dialog" aria-labelledby="forgotModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+              <div class="modal-header">
+                 <h5 class="modal-title" id="forgotModalLongTitle">Forgot Password</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                 </button>
+              </div>
+              <div class="modal-body">
+                 <div class="row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12">
+                       <div class="single-input-field">
+                          <input name="email" type="text" placeholder="Email">
+                          <i class="fas fa-envelope"></i>
+                       </div>
+                    <p class=""><a href="" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalCenter"><u>Back</u></a></p>
+                    </div>
+                 </div>
+              </div>
+              <div class="modal-footer">
+                 <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                 <button type="button" class="btn fill-btn" data-dismiss="modal">SEND</button>
+              </div>
+           </div>
+        </div>
+     </div>
       <!-- Blog Area Start Here  -->
 
       <!-- Blog Area End Here  -->
     </main>
     <!-- footer area start  -->
     <footer>
-      <div
-        class="footer-area footer__padd-1 p-relative footer-area1-bg pt-150 pb-50"
-      >
+      <div class="footer-area footer__padd-1 p-relative footer-area1-bg pt-150 pb-50">
         <!-- CTA Area Start Here  -->
         <div class="call__cta position p-absolute">
           <div class="container">
@@ -1071,78 +1176,101 @@
         <!-- CTA Area End Here  -->
         <div class="container">
           <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div
-                class="footer-widget footer2-widget footer2-widget1 mb-50 pr-20"
-              >
-                <div class="footer-widget-title">
-                  <h4>about us</h4>
+             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-widget footer2-widget footer2-widget1 mb-50 pr-20">
+                   <div class="footer-widget-title">
+                      <h4>about us</h4>
+                   </div>
+                   <p>Druppa Logistics is a leading logistics company specializing in providing comprehensive 
+                      supply chain solutions for businesses worldwide. With our dedication to efficiency, 
+                      reliability, and customer satisfaction.
+                   </p>
+                   <div class="footer-social-link mt-40">
+                      <ul>
+                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                         <li><a href="https://twitter.com/druppa_"><i class="fab fa-twitter"></i></a></li>
+                         <li><a href="https://www.instagram.com/druppa_logistics/"><i class="fab fa-instagram"></i></a></li>
+                      </ul>
+                   </div>
                 </div>
-                <p>
-                  A farm is a plot of land that is used to grow crops and raise
-                  livestock, as in our farm, we raise sheep and sell their wool
-                  the word farm is also.
-                </p>
-                <div class="footer-social-link mt-40">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-
-                    <li>
-                      <a href="#"><i class="fab fa-youtube"></i></a>
-                    </li>
-                  </ul>
+             </div>
+             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-widget footer2-widget footer2-widget2 mb-50 pl-30">
+                   <div class="footer-widget-title">
+                      <h4>other pages</h4>
+                   </div>
+                   <div class="footer-widget-link">
+                      <ul>
+                         <li><a href="about-us.html">About Us</a></li>
+                         <li><a href="services.html">Services</a></li>
+                         <li><a href="team.html">Our Team</a></li>
+                         <li><a href="#">Pricing</a></li>
+                         <li><a href="faq.html">FAQ &amp; Ans</a></li>
+                      </ul>
+                      <ul>
+                         <li><a href="#">Refund Policy</a></li>
+                         <li><a href="#">Terms &amp; Conditions</a></li>
+                      </ul>
+                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div
-                class="footer-widget footer2-widget footer2-widget2 mb-50 pl-30"
-              >
-                <div class="footer-widget-title">
-                  <h4>other pages</h4>
+             </div>
+             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-widget footer2-widget footer2-widget3 mb-50 pl-55">
+                   <div class="footer-widget-title">
+                      <h4>our services</h4>
+                   </div>
+                   <ul class="footer-widget-link-2">   
+                      <li><i class="fas fa-truck"></i><a href="#">Car Transport</a></li>
+                      <li><i class="fas fa-cogs"></i><a href="#">Refund Product</a></li>
+                      <li><i class="fas fa-box"></i><a href="#">Delivery</a></li>
+                      <li><i class="fas fa-plane"></i><a href="#">Air Frieght</a></li>
+                      <li><i class="fas fa-ship"></i><a href="#">Ship Frieght</a></li>
+                      <li><i class="fas fa-home"></i><a href="#">Home Delivery</a></li>
+                   </ul>
                 </div>
-                <div class="footer-widget-link">
-                  <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Our Team</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">FAQ &amp; Ans</a></li>
-                  </ul>
-                  <ul>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">News &amp; Insights</a></li>
-                    <li><a href="#">Refund Policy</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                  </ul>
+             </div>
+             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="footer-widget footer2-widget footer2-widget4 mb-50 pl-10 pr-40">
+                   <div class="footer-widget-title">
+                      <h4>Subscribe us</h4>
+                   </div>
+                   <p class="mb-20">Subscribe us & receive any news & update in your inbox directly</p>
+                   <form action="#" class="subscribe-form subscribe-form-footer1">
+                      <div class="s-clip p-relative s-input mb-10">
+                         <input type="text" placeholder="Enter your email">
+                         <i class="fas fa-envelope"></i>
+                      </div>
+                      <button type="submit">Subscribe Now</button>
+                   </form>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-              <div
-                class="footer-widget footer2-widget footer2-widget3 mb-50 pl-55"
-              >
-                <div class="footer-widget-title">
-                  <h4>our services</h4>
-                </div>
-                <ul class="footer-widget-link-2">
-                  <li><i class="fas fa-truck"></i>Car Transport</li>
-                  <li><i class="fas fa-cogs"></i>Refund Product</li>
-                  <li><i class="fas fa-box"></i>Car Transport</li>
-                  <li><i class="fas fa-plane"></i>Air Frieght</li>
-                  <li><i class="fas fa-ship"></i>Ship Frieght</li>
-                  <li><i class="fas fa-home"></i>Home Delivery</li>
-                </ul>
-              </div>
-            </div>
+             </div>
           </div>
         </div>
       </div>
+      <div class="footer-menu-area red-bg">
+        <div class="container">
+           <div class="footer-menu-box two">
+              <div class="row align-items-center">
+                 <div class="col-xxl-7 col-lg-5 ">
+                    <!-- <div class="footer-menu mb-15">
+                       <nav>
+                          <ul>
+                             <li><a href="#">terms & conditions</a></li>
+                             <li><a href="faq.html">FAQ</a></li>
+                             <li><a href="#">careers</a></li>
+                          </ul>
+                       </nav>
+                    </div> -->
+                 </div>
+                 <div class="col-xxl-5 col-lg-7">
+                    <div class="copy-right-text-2 mb-15">
+                       <p>Copyright & design by <a href="#">@bashir/giwa</a> - 2023</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
     </footer>
     <!-- footer area end  -->
     <!-- back to top start -->
@@ -1176,5 +1304,10 @@
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/rangeslider-js.min.js"></script>
     <script src="assets/js/main.js"></script>
+    
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
